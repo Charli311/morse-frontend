@@ -1,0 +1,38 @@
+@use "../assets/theme.module.scss" as theme;
+
+.firebase_total {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 24px;
+    color: theme.$pink;
+  }
+  ul {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      list-style: none;
+      padding-left: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 2px 4px rgba($color: theme.$purple, $alpha: 0.2);
+      width: 200px;
+      height: max-content;
+      margin: 10px;
+      text-wrap: wrap;
+      strong {
+        color: theme.$purple;
+        font-style: bold;
+      }
+      p {
+        color: theme.$pink;
+      }
+    }
+  }
+}
