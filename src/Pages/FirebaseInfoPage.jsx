@@ -21,7 +21,6 @@ const FirestoreInfo = () => {
 
   return (
     <div className={Style.firebase_total}>
-      <Header />
       <h1>Stored Data from Firestore</h1>
       <ul>
         {morseData.length > 0 ? (

@@ -2,7 +2,7 @@ import { Link, Links } from "react-router-dom";
 import Styles from "../CSS/Header.module.scss";
 const Header = () => {
   return (
-    <section className={Styles.header}>
+    <header className={Styles.header}>
       <div className={Styles.header_links}>
         <p>
           <Link to="/">Live Writing</Link>
@@ -16,7 +16,7 @@ const Header = () => {
           <Link to="/graphs">Graficas</Link>
         </p>
       </div>
-    </section>
+    </header>
   );
 };
 export default Header;

@@ -20,7 +20,6 @@ const GraphsPage = () => {
 
   return (
     <div>
-      <Header />
       <div>
         {morseData.length > 0 ? (
           <>

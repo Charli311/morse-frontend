@@ -30,7 +30,6 @@ const MorseInfoPage = () => {
 
   return (
     <div className={Style.home}>
-      <Header />
       <h1 className={Style.home_title}>Morse Code Visualizer</h1>
       <div className={Style.content_container}>
         <h2>Word:</h2>
