@@ -26,6 +26,19 @@ const WordLengthChart = ({ morseData }) => {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    scales: {
+      x: {
+        title: { display: true, color: "black" },
+        ticks: { color: "black" },
+      },
+      y: {
+        title: {
+          display: true,
+          color: "black",
+        },
+        ticks: { color: "black" },
+      },
+    },
   };
 
   return (

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "../Components/Header";
 import WordLengthChart from "../Components/WordLengthChart";
+import PulseTimeChart from "../Components/PulseTimeChart";
 
 const GraphsPage = () => {
   const [morseData, setMorseData] = useState([]);
@@ -24,6 +25,7 @@ const GraphsPage = () => {
         {morseData.length > 0 ? (
           <>
             <WordLengthChart morseData={morseData} />
+            <PulseTimeChart pulseData={morseData} />
           </>
         ) : (
           <p>Loading data ...</p>
